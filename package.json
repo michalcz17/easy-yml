@@ -1,0 +1,32 @@
+{
+  "name": "easy-yml",
+  "version": "1.0.0",
+  "description": "The easy way to make, edit and read yml files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalcz17/easy-yml.git"
+  },
+  "keywords": [
+    "node.js",
+    "npm",
+    "easy-yml",
+    "yml",
+    "config",
+    "javascript",
+    "data"
+  ],
+  "author": "npm: michal_cz17, git: michalcz17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalcz17/easy-yml/issues"
+  },
+  "homepage": "https://github.com/michalcz17/easy-yml#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "js-yaml": "^4.1.0"
+  }
+}
