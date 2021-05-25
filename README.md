@@ -1,2 +1,2 @@
 # easy-yml
-The easy way to make, edit and read yml files with node.js
+The easy way to make, edit and read yaml files with node.js
