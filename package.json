@@ -1,6 +1,6 @@
 {
   "name": "easy-yml",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The easy way to make, edit and read yml files.",
   "main": "index.js",
   "scripts": {
