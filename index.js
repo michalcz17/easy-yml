@@ -14,8 +14,8 @@ function setup() {
             console.log("Error occurred when creating users data folder!".red)
         }
     }
-    if(!fs.existsSync("default.yml")){
-        fs.appendFile('default.yml', 'file: true', function (err) {
+    if(!fs.existsSync("./node_modules/easy-yml/default.yml")){
+        fs.appendFile('./node_modules/easy-yml/default.yml', 'file: true', function (err) {
             if (err) throw err;
             console.log('Default file was created!'.green);
         });
@@ -24,7 +24,7 @@ function setup() {
 
 function createDefaultFile(user) {
     try {
-        fs.copyFileSync('default.yml', 'data/' + user + '.yml');
+        fs.copyFileSync('./node_modules/easy-yml/default.yml', 'data/' + user + '.yml');
     } catch(e) {
         console.log("Error occurred when creating new yaml file! (default.yml couldn't be find)".red);
         return 1;
